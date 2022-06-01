@@ -4,5 +4,8 @@ tested and compiled on fedora 36
 
 # install
 ```
-mkdir /usr/src/btusb-0.8
+sudo dnf install dkms
+git clone https://github.com/wimvanboven/razer-blade-14-2022-btusb
+cp -r razer-blade-14-2022-btusb/btusb-0.8 /usr/src
+sudo dkms install btusb/0.8
 ```

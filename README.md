@@ -3,5 +3,6 @@ Bluetooth patch for the 2022 Razer Blade 14
 tested and compiled on fedora 36
 
 # install
-```mkdir /usr/src/btusb-0.8
+```
+mkdir /usr/src/btusb-0.8
 ```
